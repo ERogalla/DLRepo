@@ -122,12 +122,19 @@ pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/venv,python
 .Python
-/bin
-/include
-/lib
-/lib64
-/local
-/scripts
+bin/
+include/
+lib/
+lib64/
+local/
+scripts/
+etc/
+share/
+
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
